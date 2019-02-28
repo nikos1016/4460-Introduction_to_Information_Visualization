@@ -1,0 +1,17 @@
+/*text {
+  font: 10px sans-serif;
+}*/
+
+.arc path {
+  stroke: #FFF;
+  stroke-width: 4px;
+}
+
+.d3-label {
+  fill: #999;
+  font-family: "Helvetica";
+}
+
+#main {
+    padding: 20px;
+}

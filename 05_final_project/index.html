@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <h1><strong>Click the Circle you want to look!</strong></h1>
+    <div id="main">
+        <svg width="1200" height="1200" font-family="sans-serif" font-size="13" text-anchor="left">
+            <g class='legend' transform="translate(40, 40)">
+              <g transform="translate(80, 260)">
+
+                  <g transform="translate(0,-20)">
+                      <!-- <rect height="10" width="10" style="fill: rgb(47, 152, 79);"/> -->
+                  </g><g transform="translate(-15, -20)">
+                      <text x="14" dy="0.7em"> Amount of Joy</text>
+                  </g>
+
+                    <g transform="translate(0)">
+                        <rect height="10" width="10" style="fill: rgb(3, 100, 41);"/>
+                    </g><g transform="translate(10)">
+                        <text x="14" dy="0.7em"> ≥ 800</text>
+                    </g>
+
+                    <g transform="translate(0,20)">
+                        <rect height="10" width="10" style="fill: rgb(47, 152, 79);"/>
+                    </g><g transform="translate(10, 20)">
+                        <text x="14" dy="0.7em"> 500~800</text>
+                    </g>
+
+                    <g transform="translate(0,40)">
+                        <rect height="10" width="10" style="fill: rgb(115, 195, 120);"/>
+                    </g><g transform="translate(10, 40)">
+                        <text x="14" dy="0.7em"> 200~500</text>
+                    </g>
+
+                    <g transform="translate(0,60)">
+                        <rect height="10" width="10" style="fill: rgb(183, 226, 177);"/>
+                    </g><g transform="translate(10, 60)">
+                        <text x="14" dy="0.7em"> ≤ 200</text>
+                    </g>
+                </g>
+                <!--pie-->
+                <g transform="translate(30,550)">
+                    <g transform="translate(50)">
+                        <rect height="10" width="10" style="fill: #3182bd;"/>
+                    </g><g transform="translate(60)">
+                        <text x="14" dy="0.7em"> Joy</text>
+                    </g>
+
+                    <g transform="translate(50,20)">
+                        <rect height="10" width="10" style="fill:  #6baed6;"/>
+                    </g><g transform="translate(60, 20)">
+                        <text x="14" dy="0.7em"> Meh</text>
+                    </g>
+
+                    <g transform="translate(50,40)">
+                        <rect height="10" width="10" style="fill: #9ecae1;"/>
+                    </g><g transform="translate(60, 40)">
+                        <text x="14" dy="0.7em"> Despair</text>
+                    </g>
+               </g>
+
+               <!--labels-->
+               <g transform="translate(150,960)">
+                  <g transform="translate(10)">
+                       <text x="14" dy="0.7em"> MALE</text>
+                   </g>
+
+                   <g transform="translate(385, 0)">
+                       <text x="14" dy="0.7em"> FEMALE</text>
+                   </g>
+
+                   <g transform="translate(775, 0)">
+                       <text x="14" dy="0.7em"> OTHER</text>
+                   </g>
+              </g>
+
+
+            </g>
+        </svg>
+    </div>
+</body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<!-- <script src="./js/d3-tip.js"></script> -->
+<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="./js/main.js"></script>
+</html>
